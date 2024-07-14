@@ -14,7 +14,8 @@
 
 
 ## Models
-- juggernautXL_v8Rundiffusion	
+- [juggernautXL_v8Rundiffusion](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors)	
+- [fooocus_expansion](https://huggingface.co/lllyasviel/misc/resolve/main/fooocus_expansion.bin)	
 
 ## Ports
 
