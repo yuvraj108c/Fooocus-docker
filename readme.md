@@ -4,7 +4,7 @@
 
 [![python](https://img.shields.io/badge/python-3.10-green)](https://www.python.org/downloads/)
 [![cuda](https://img.shields.io/badge/cuda-12.4-green)](https://developer.nvidia.com/cuda-downloads)
-[![by-nc-sa/4.0](https://img.shields.io/badge/license-CC--BY--NC--SA--4.0-lightgrey)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
+[![GPL-3.0](https://img.shields.io/badge/license-GPLv3-blue)](https://www.gnu.org/licenses/gpl-3.0.en.html#license-text)
 </div>
 
 ## Tags
@@ -21,7 +21,7 @@
 | Connect Port | Internal Port | Description   |
 | ------------ | ------------- | ------------- |
 | 22           | 22            | SSH Server    |
-| 7860         | 7860          | Automatic1111 |
+| 7860         | 7860          | Fooocus Webui |
 | 8888         | 8888          | Jupyter Lab   |
 
 ## Environment Variables
@@ -42,7 +42,7 @@ docker run -d \
   -p 22:22 \
   -p 7860:7860 \
   -p 8888:8888 \
-  yuvraj108c/a1111:latest
+  yuvraj108c/fooocus:latest
 ```
 
 ## Building the docker image
@@ -53,4 +53,4 @@ docker-compose build latest
 ```
 
 ## License
-CC BY-NC-SA 4.0
+GPL-3.0
